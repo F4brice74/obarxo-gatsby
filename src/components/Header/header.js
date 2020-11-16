@@ -26,7 +26,7 @@ function Header() {
                             data-sal="slide-left"
                             data-sal-delay="20"
                             data-sal-easing="ease"
-                            data-sal-once
+                            data-sal-once="true"
                             className="header-logo"
                             src={headerLogoWhite}
                             alt="headerlogo"

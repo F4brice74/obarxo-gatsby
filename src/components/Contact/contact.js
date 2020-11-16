@@ -122,7 +122,7 @@ function Contact() {
                     <Grid item xs={12} md={3}>
                         <TextField
                             className={classes.root}
-                            id="outlined-basic"
+                            id="champ nom"
                             variant="outlined"
                             label="Votre nom"
                             type="text"
@@ -133,7 +133,7 @@ function Contact() {
                     <Grid item xs={12} md={3}>
                         <TextField
                             className={classes.root}
-                            id="outlined-basic"
+                            id="champ email"
                             variant="outlined"
                             label="Votre email"
                             type="email"

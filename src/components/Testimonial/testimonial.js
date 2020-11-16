@@ -44,7 +44,7 @@ function Testimonial() {
                         <Grid item container xs={12} md={9} className="testimonial-content">
                             <Grid item xs={12}>
                                 <img src={GuillemetWhite} alt="guillemet" className="testimonial-guill" />
-                                <p>Obarxo transporte l’univers de la Mixologie dans une autre dimension, il offre aux barmen un confort de travail unique pour transmettre sa passion et son savoir-faire du cocktail avec esthétismes.<br /> On dit qu’un cocktail se déguste d’abord avec les yeux, mais avant d’être filtré dans le verre de service avec précision, le barman doit théâtralisé son exécution tel un artiste. <br />Obarxo apporte cette magie à l’univers du bar, à l’art de la Mixologie, à la dégustation des cocktails at aux moments de partage.</p>
+                                <p>Obarxo transporte l’univers de la Mixologie dans une autre dimension, il offre aux barmen un confort de travail unique pour transmettre sa passion et son savoir-faire du cocktail avec esthétismes.<br /> On dit qu’un cocktail se déguste d’abord avec les yeux, mais avant d’être filtré dans le verre de service avec précision, le barman doit théâtraliser son exécution tel un artiste. <br />Obarxo apporte cette magie à l’univers du bar, à l’art de la Mixologie, à la dégustation des cocktails et aux moments de partage.</p>
                             </Grid>
                             <Grid item xs={12}>
                                 <h2>Yoann Demeersseman</h2>

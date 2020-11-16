@@ -3,16 +3,19 @@
 .presta {
     height: 550px;
 }
+
 .presta-background1 {
-    background-image: linear-gradient(63deg, rgba(255,255,255,0.62) 0%, rgba(0,0,0,0.65) 100%), url('../../assets/presta/OBARXO-PRESTA1.jpg');
-background-position-y: center;
-}
-.presta-background2 {
-    background-image: linear-gradient(324deg, rgba(255,255,255,0.62) 0%, rgba(0,0,0,0.65) 100%), url('../../assets/presta/OBARXO-PRESTA2.jpg');
+    background-image: linear-gradient(63deg, rgba(255, 255, 255, 0.62) 0%, rgba(0, 0, 0, 0.65) 100%), url('../../assets/presta/OBARXO-PRESTA1.jpg');
     background-position-y: center;
 }
+
+.presta-background2 {
+    background-image: linear-gradient(324deg, rgba(255, 255, 255, 0.62) 0%, rgba(0, 0, 0, 0.65) 100%), url('../../assets/presta/OBARXO-PRESTA2.jpg');
+    background-position-y: center;
+}
+
 .presta-background3 {
-    background-image: linear-gradient(63deg, rgba(255,255,255,0.62) 0%, rgba(0,0,0,0.65) 100%), url('../../assets/presta/OBARXO-PRESTA3.jpg');
+    background-image: linear-gradient(63deg, rgba(255, 255, 255, 0.62) 0%, rgba(0, 0, 0, 0.65) 100%), url('../../assets/presta/OBARXO-PRESTA3.jpg');
     background-position-y: center;
 }
 
@@ -20,8 +23,8 @@ background-position-y: center;
     border: 2px solid white;
     border-radius: 20px;
     padding-left: 2em;
-    padding-right: 2em;    
-    display: inline-block;   
+    padding-right: 2em;
+    display: inline-block;
     margin-top: 2em;
     margin-right: 30px;
     margin-left: 30px;
@@ -30,14 +33,14 @@ background-position-y: center;
 .presta-subtitle1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    color:white;
+    color: white;
     font-size: 1.5em;
     display: block;
 }
 
 .presta-subtitle2 {
     font-family: 'Raleway', sans-serif;
-    color:white;
+    color: white;
     font-weight: 800;
     font-size: 1em;
     text-transform: uppercase;
@@ -49,16 +52,18 @@ background-position-y: center;
     padding-right: 30px;
     padding-top: 1em;
 }
+
 .presta-block-subtitle2 {
     padding-left: 30px;
     padding-top: 1em;
 }
+
 .presta-title {
     font-family: 'Open Sans', sans-serif;
     color: $color1;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 2em; 
+    font-size: 2em;
     display: block;
 }
 
@@ -72,34 +77,43 @@ background-position-y: center;
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle
-  }
+}
 
 .player-wrapper {
     position: relative;
     width: 640px;
     height: 360px;
+    box-shadow: 0px 0px 19px 12px #00000056;
     //padding-top: 26.25%;  /* Player ratio: 100 / (1280 / 720) */   
 }
+
 .presta-video {
     box-shadow: 0px 0px 19px 12px #00000056;
     position: absolute;
-   
- }
+
+}
 
 
-  @media (max-width: 499px) {
+@media (max-width: 499px) {
 
     .presta-dot {
-       display: none;
-        opacity:0;
-      }
-      .presta-subtitle2 {
-          display: block;
-      }
-      .player-wrapper {
+        display: none;
+        opacity: 0;
+    }
+
+    .presta-subtitle2 {
+        display: block;
+        // padding-left: 10px;
+        // padding-right: 10px;
+    }
+
+    .player-wrapper {
         width: 320px;
         height: 180px;
         margin-top: 50px;
-      }
-      
+    }
+    .presta-block-subtitle {
+       // padding: 10px;
+    }
+
 }

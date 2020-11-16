@@ -45,10 +45,13 @@ function Presta() {
                     <Grid item xs={12} md={12} align="center">
                         <div className="player-wrapper">
                         <iframe
+                        srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/LGaJ56V-aJQ?autoplay=1><img src=https://i.ytimg.com/vi/LGaJ56V-aJQ/hqdefault.jpg alt='PRIVATISER VOS ESPACES'><span>▶</span></a>"
+                        
+                        src="https://www.youtube.com/embed/LGaJ56V-aJQ" 
+                        loading="lazy"
                         title="Privatiser vos espaces" 
                         width="100%" 
-                        height="100%" 
-                        src="https://www.youtube.com/embed/LGaJ56V-aJQ" 
+                        height="100%"                       
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen                         
@@ -86,11 +89,13 @@ function Presta() {
                 
                     <Grid item xs={12} md={12} align="center">
                         <div className="player-wrapper">
-                        <iframe 
+                        <iframe
+                        srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/jugRkJRyOFc?autoplay=1><img src=https://i.ytimg.com/vi/jugRkJRyOFc/hqdefault.jpg alt='CREER L'EVENEMENT'><span>▶</span></a>"
+                        src="https://www.youtube.com/embed/jugRkJRyOFc" 
+                        loading="lazy"
                         title="Créer l'événement"
                         width="100%" 
-                        height="100%" 
-                        src="http://www.youtube.com/embed/jugRkJRyOFc"
+                        height="100%"                       
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen                      
@@ -129,10 +134,13 @@ function Presta() {
                     <Grid item xs={12} md={12} align="center">
                         <div className="player-wrapper">
                         <iframe
+                        srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/N4zgF9Fb8nM?autoplay=1><img src=https://i.ytimg.com/vi/N4zgF9Fb8nM/hqdefault.jpg alt='DECOUVRIR L'ART DU COCKTAIL'><span>▶</span></a>"
+                       // srcdoc='https://i.ytimg.com/vi/N4zgF9Fb8nM/hqdefault.jpg'
+                        src="https://www.youtube.com/embed/N4zgF9Fb8nM" 
+                        loading="lazy"
                         title="Découvrir - l'Art du Cocktail"
                         width="100%" 
-                        height="100%" 
-                        src="http://www.youtube.com/embed/N4zgF9Fb8nM" 
+                        height="100%"                       
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen 

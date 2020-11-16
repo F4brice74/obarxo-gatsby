@@ -36,6 +36,7 @@ const SEO = ({ title, description, image }) => {
       )}
 
       {seo.image && <meta property="og:image" content={seo.image} />}
+      <html lang="fr" />
 
 
 
