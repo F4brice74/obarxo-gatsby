@@ -1,0 +1,30 @@
+.gallery-item {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin: 4px;
+    //background-color: #ed7013;
+}
+
+.gallery-item:hover {
+   // transform: scale(1.02, 1.02);
+    //box-shadow: 0px 0px 19px 2px #ed711356;
+    //transition: all 0.2s ease-in-out 0s; 
+    opacity: 0.8;
+}
+
+@media (max-width: 499px) {
+
+    .gallery-item {
+        width: 70px;
+        height: 60px;
+        object-fit: cover;
+        padding: 2px;
+    }
+    .gallery-item:hover {
+         
+         opacity: 0.8;
+     }
+
+
+}

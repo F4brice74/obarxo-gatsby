@@ -1,0 +1,21 @@
+@import 'src/pages/index.scss';
+
+
+.contact-logo {
+    width: 350px;
+}
+
+.contact-titre3 {
+    display: inline-block;
+    color: $color3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+}
+
+.contact-form {
+    text-align:center;
+}
+

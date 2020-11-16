@@ -1,0 +1,74 @@
+@import 'src/pages/index.scss';
+
+.footer-logo {
+    width: 200px;
+}
+.footer-icon {    
+    color: white;  
+}
+
+.footer-logo-small {
+    width: 100px;
+}
+
+.footer-tel {
+    color:white;
+    a {
+        color:white;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+.footer-bottom {
+    color:white;
+    font-size: 0.8em;
+    display: inline;
+    a {
+        font-size: 0.8em;
+        color:white;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+.footer-dot {
+    padding: 2px;
+    margin: 10px;
+    height: 2px;
+    width: 2px;
+    background-color: $color1;
+    //background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle
+  }
+
+.footer-block {
+    padding: 40px;
+    align-items: center;
+    
+}
+.footer-right {
+   
+    a {
+        color:white;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+ 
+}
+.footer-separator {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+@media (max-width: 499px) {
+   
+    .footer-dot {
+        display: none;
+      } 
+    
+      .footer-bottom {
+    display:block;
+    }
+    }
+   
