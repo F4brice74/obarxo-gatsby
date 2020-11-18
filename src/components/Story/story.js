@@ -53,7 +53,7 @@ function Story() {
                     data-sal-duration="500"
                 >               
                 <img src={Guillemet} alt="guillemet" className="story-guillemet" />
-                    <p>Mickaël HEBERT a créé le concept de bar mobile tout-en-un après une expérience de quinze ans pour un groupe international de vins et spiritueux et six ans à la tête d'Easy Module, une entreprise spécialisée dans la location de mobilier design, premium. <br />Imaginé il y a 6 ans dans le plus grand secret avec des acteurs de la restauration, de la mixologie, OBARXO art of bar se position comme le bar mobile incontournable de lieux ou de maisons de renommée à la recherche d'esthétisme et d'innovation.</p>
+                    <p>Mickaël HEBERT a créé le concept de bar mobile tout-en-un après une expérience de quinze ans pour un groupe international de vins et spiritueux et six ans à la tête d'Easy Module, une entreprise spécialisée dans la location de mobilier design, premium. <br />Imaginé il y a 6 ans dans le plus grand secret avec des acteurs de la restauration, de la mixologie, OBARXO art of bar se positionne comme le bar mobile incontournable de lieux ou de maisons de renommée à la recherche d'esthétisme et d'innovation.</p>
                 </Grid>
 
 

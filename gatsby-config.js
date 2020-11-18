@@ -17,7 +17,7 @@ module.exports = {
   siteMetadata: {
     title: "OBARXO - Art of Bar",    
     description:
-      "Mickaël HEBERT a créé le concept de bar mobile tout-en-un après une expérience de quinze ans pour un groupe interantiona de vins et spiritueux et six ans à la tête d'Easy Module, une entreprise spécialisée dans la location de mobilier design, premium. <br />Imaginé il y a 6 ans dans le plus grand secret avec des acteurs de la restauration, de la mixologie, Obarxo art of bar se position comme le bar mobile incontournable de lieux ou de maisons de renommée à la recherche d'esthétisme et d'innovation.",
+      "Mickaël HEBERT a créé le concept de bar mobile tout-en-un après une expérience de quinze ans pour un groupe international de vins et spiritueux et six ans à la tête d'Easy Module, une entreprise spécialisée dans la location de mobilier design, premium. <br />Imaginé il y a 6 ans dans le plus grand secret avec des acteurs de la restauration, de la mixologie, Obarxo art of bar se positionne comme le bar mobile incontournable de lieux ou de maisons de renommée à la recherche d'esthétisme et d'innovation.",
       siteUrl: "https://obarxo.com", // No trailing slash allowed!
     image: "/obarxo-logo-quadri-orange.svg",
     
@@ -26,14 +26,19 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/mentions`]     
+      },
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         resolveEnv: () => NETLIFY_ENV,
         env: {
           production: {
-            policy: [{ userAgent: '*' }],
+            policy: [{ userAgent: '*', allow:['/'], disallow: ['/mentions'] }],
           },
           'branch-deploy': {
             policy: [{ userAgent: '*', disallow: ['/'] }],
