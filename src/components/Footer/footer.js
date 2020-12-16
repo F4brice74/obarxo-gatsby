@@ -26,7 +26,7 @@ function Footer() {
         >
             <Grid item container xs={12} className="footer-block">
                 <Grid item xs={12} md={4} align="center">
-                    <img className="footer-logo" src={footerLogoWhite} alt="logoObarxo" />
+                <Link smooth to="/"><img className="footer-logo" src={footerLogoWhite} alt="logoObarxo" /></Link>
                 </Grid>
 
                 <Grid item xs={12} md={4} align="center" className="footer-separator" >

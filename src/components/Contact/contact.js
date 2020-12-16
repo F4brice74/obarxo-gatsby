@@ -65,6 +65,8 @@ function Contact() {
     const classes = useStyles();
     const [open, setOpen] = useState(false);
     const [name, setName] = useState();
+    const [message, setMessage] = useState();
+    const [phone, setPhone] = useState();
     const [email, setEmail] = useState();
 
 
@@ -84,6 +86,8 @@ function Contact() {
                 setOpen(true);
                 setName('');
                 setEmail('');
+                setMessage('');
+                setPhone('');
                 // console.log("bar confirm")
             }, (error) => {
                 console.log(error.text);
@@ -123,6 +127,7 @@ function Contact() {
                         <TextField
                             className={classes.root}
                             id="champ nom"
+                            required
                             variant="outlined"
                             label="Votre nom"
                             type="text"
@@ -134,11 +139,37 @@ function Contact() {
                         <TextField
                             className={classes.root}
                             id="champ email"
+                            required
                             variant="outlined"
                             label="Votre email"
                             type="email"
                             name="user_email"
                             value={email}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={3}>
+                        <TextField
+                            className={classes.root}
+                            id="champ phone"
+                            variant="outlined"
+                            label="Votre téléphone"
+                            type="phone"
+                            name="user_phone"
+                            value={phone}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={3}>
+                        <TextField
+                            className={classes.root}
+                            id="champ contact"
+                            variant="outlined"
+                            multiline
+                            required
+                            rows="5"
+                            label="Votre message"
+                            type="message"
+                            name="user_message"
+                            value={message}
                         />
                     </Grid>
 
