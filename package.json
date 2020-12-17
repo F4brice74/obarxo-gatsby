@@ -20,6 +20,8 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.56",
     "emailjs-com": "^2.6.3",
+    "formik": "^2.2.6",
+    "formik-material-ui": "^3.0.1",
     "gatsby": "^2.25.3",
     "gatsby-plugin-google-gtag": "^2.2.0",
     "gatsby-plugin-material-ui": "^2.1.10",
@@ -37,7 +39,8 @@
     "styled-components": "^5.2.1",
     "typeface-open-sans": "^1.1.13",
     "typeface-raleway": "^1.1.13",
-    "typeface-roboto": "^1.1.13"
+    "typeface-roboto": "^1.1.13",
+    "yup": "^0.32.8"
   },
   "devDependencies": {
     "prettier": "2.1.2"

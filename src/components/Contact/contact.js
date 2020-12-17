@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
-
+import * as Yup from 'yup';
 
 
 // import material UI
@@ -126,19 +126,20 @@ function Contact() {
                     <Grid item xs={12} md={3}>
                         <TextField
                             className={classes.root}
-                            id="champ nom"
+                            id="user_name"
                             required
                             variant="outlined"
                             label="Votre nom"
                             type="text"
                             name="user_name"
                             value={name}
+                            
                         />
                     </Grid>
                     <Grid item xs={12} md={3}>
                         <TextField
                             className={classes.root}
-                            id="champ email"
+                            id="user_email"
                             required
                             variant="outlined"
                             label="Votre email"
@@ -150,9 +151,10 @@ function Contact() {
                     <Grid item xs={12} md={3}>
                         <TextField
                             className={classes.root}
-                            id="champ phone"
+                            id="user_phone"
                             variant="outlined"
                             label="Votre téléphone"
+                            required
                             type="phone"
                             name="user_phone"
                             value={phone}
@@ -161,7 +163,7 @@ function Contact() {
                     <Grid item xs={12} md={3}>
                         <TextField
                             className={classes.root}
-                            id="champ contact"
+                            id="user_message"
                             variant="outlined"
                             multiline
                             required
