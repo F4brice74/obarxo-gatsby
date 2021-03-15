@@ -79,7 +79,7 @@ function Contact() {
 
     function sendEmail(e) {
         e.preventDefault();
-       
+
         emailjs.sendForm('obarxo', 'templateObarxo', e.target, 'user_DcivDu3LP2mvc2dCRrJDa')
             .then((result) => {
                 //console.log(result);
@@ -133,7 +133,7 @@ function Contact() {
                             type="text"
                             name="user_name"
                             value={name}
-                            
+
                         />
                     </Grid>
                     <Grid item xs={12} md={3}>
